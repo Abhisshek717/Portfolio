@@ -1,0 +1,49 @@
+.socialicon{
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    border-radius:10px;
+    width:230px;
+    
+}
+.social__upper{
+   display:flex;
+   align-items: center;
+   padding-left:20px;
+   padding-right: 20px;
+   padding-top:20px;
+   justify-content: space-between;
+}
+.social__lower{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top:10px;
+     
+}
+.social__icon > .MuiSvgIcon-root{
+    font-size: 150px;
+    
+}
+.social__icon{
+    color:white;
+       
+}
+
+.name{
+    color:white;
+    font-family:'Roboto', sans-serif;
+    
+}
+.number{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.repo{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    padding-left:10px;
+}
