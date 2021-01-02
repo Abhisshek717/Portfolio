@@ -22,6 +22,9 @@
     
     margin-top:50px;
 }
+.code{
+    font-weight: bolder;
+}
 .para{
     color:white;
     font-size:27px;
