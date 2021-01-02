@@ -1,9 +1,11 @@
 import './App.css';
-
+import Leftlink from './Leftlink';
+import Rightlink from './Rightlink';
 function App() {
   return (
-    <div className="App">
-       <h1>hi i am building protfolio</h1>
+    <div className="app">
+       <Leftlink />
+       <Rightlink />
     </div>
   );
 }
