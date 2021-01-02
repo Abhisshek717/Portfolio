@@ -1,5 +1,8 @@
 import React from 'react'
 import './Leftlink.css';
+import Socialicon from './Socialicon';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 function Leftlink() {
     return (
         <div className="leftlink">
@@ -10,11 +13,18 @@ function Leftlink() {
             <div className="subtitle">
                 <p className="para">Studying Computer science.  Learning UX & UI 
                    designing and developing the Web, Android and IOS 
-                   Apps, I code Clean.
+                   Apps,<span class="code"> I code Clean. </span>
                    Interested in the field of Machine Learning .</p>
             </div>
             <div className="left__link">
                 
+                <Socialicon name="GITHUB" Icon={GitHubIcon} numrepo="2" namerepo="Repositories"/>
+                
+                 
+                
+                 <Socialicon  name="Linkedin" Icon={LinkedInIcon} numrepo="25" namerepo="Connections"  className="linker"/>
+                 
+                 
             </div>
         </div>
     )
