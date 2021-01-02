@@ -1,0 +1,30 @@
+.leftlink{
+    display:flex;
+    flex-direction: column;
+}
+.title__hello{
+    color:white;
+    font-size: 55px;
+    
+    font-family:'Roboto', sans-serif;
+}
+.title__abhi{
+    color:white;
+    font-size: 40px;
+    
+    font-family:'Roboto', sans-serif;
+}
+.leftlink{
+    margin-top:150px;
+    margin-left:250px;
+}
+.subtitle{
+    
+    margin-top:50px;
+}
+.para{
+    color:white;
+    font-size:27px;
+    font-family:'Roboto', sans-serif;
+    width:80%;
+}
