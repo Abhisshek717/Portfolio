@@ -4,8 +4,13 @@ import Rightlink from './Rightlink';
 function App() {
   return (
     <div className="app">
-       <Leftlink />
-       <Rightlink />
+       <div className="left">
+         <Leftlink />
+       </div>
+       
+       <div className="right">
+         <Rightlink />
+       </div>
     </div>
   );
 }
