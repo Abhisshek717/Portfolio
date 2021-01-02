@@ -31,3 +31,11 @@
     font-family:'Roboto', sans-serif;
     width:80%;
 }
+.left__link{
+    display: flex;
+    
+    cursor: pointer;
+    margin-top:100px;
+    width:70%;
+    justify-content: space-between;
+}
