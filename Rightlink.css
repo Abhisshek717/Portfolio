@@ -1,0 +1,48 @@
+.resume{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    border:1px solid white;
+    width:100px;
+    padding-left:25px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-radius:10px;
+
+    margin-top:50px;
+    margin-left:450px;
+    cursor:pointer;
+}
+.skills{
+    border:1px solid white;
+    width:500px;
+    margin-top:100px;
+    margin-left:80px;
+    border-radius:10px;
+    padding:10px;
+}
+.heading__skills{
+    font-size: 40px;
+    color:white;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.skill{
+   
+    
+    margin-left:25px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.skill__item{
+    display:flex;
+    justify-content:space-between;
+    padding-right:50px;
+}
+.skill__item2{
+    display:flex;
+    justify-content:space-between;
+    padding-right:50px;
+    padding-top:30px; 
+}

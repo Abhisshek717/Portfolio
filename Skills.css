@@ -1,0 +1,17 @@
+.skill__bottom{
+    display:flex;
+    object-fit: contain;
+    align-items: center;
+    
+    color:white;
+    width:170px;
+    justify-content:space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.skill__bottom > .MuiSvgIcon-root{
+    font-size:xx-large;
+    color:white;
+}
+.skill__text{
+    font-size: 25px;
+}
