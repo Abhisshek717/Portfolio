@@ -47,3 +47,6 @@
     font-family: 'Roboto', sans-serif;
     padding-left:10px;
 }
+.social__upper > .MuiSvgIcon-root {
+    font-size:40px;
+}
