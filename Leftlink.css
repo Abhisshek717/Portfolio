@@ -1,22 +1,25 @@
 .leftlink{
     display:flex;
     flex-direction: column;
+   
+   
+    
 }
 .title__hello{
-    color:white;
-    font-size: 50px;
-    
-    font-family:'Roboto', sans-serif;
-}
-.title__abhi{
     color:white;
     font-size: 40px;
     
     font-family:'Roboto', sans-serif;
 }
+.title__abhi{
+    color:white;
+    font-size: 20px;
+    
+    font-family:'Roboto', sans-serif;
+}
 .leftlink{
-    margin-top:150px;
-    margin-left:250px;
+    margin-top:119px;
+    margin-left:230px;
 }
 .subtitle{
     
@@ -35,7 +38,7 @@
     display: flex;
     
     cursor: pointer;
-    margin-top:120px;
-    width:70%;
+    margin-top:100px;
+    width:80%;
     justify-content: space-between;
 }
