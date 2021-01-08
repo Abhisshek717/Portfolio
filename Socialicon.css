@@ -3,7 +3,7 @@
     flex-direction: column;
     border:1px solid white;
     border-radius:10px;
-    width:230px;
+    width:190px;
     
 }
 .social__upper{
@@ -23,7 +23,7 @@
      
 }
 .social__icon > .MuiSvgIcon-root{
-    font-size: 150px;
+    font-size: 90px;
     
 }
 .social__icon{
@@ -34,12 +34,12 @@
 .name{
     color:white;
     font-family:'Roboto', sans-serif;
-    
+    font-size:20px;
 }
 .number{
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 28px;
     padding-bottom: 10px;
 }
 .repo{
@@ -48,5 +48,5 @@
     padding-left:10px;
 }
 .social__upper > .MuiSvgIcon-root {
-    font-size:40px;
+    font-size:30px;
 }
