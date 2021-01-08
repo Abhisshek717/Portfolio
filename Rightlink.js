@@ -29,6 +29,16 @@ function Rightlink() {
                    
                </div>
            </div>
+        
+        
+           <div className="projects">
+                    <div className="project__head">Projects</div>
+                    <div className="project__discript">
+                        <h1>Youtube clone</h1>
+                        <h1>Airbnb clone</h1>
+                        <h1>Covid-19 Tracker</h1>
+                    </div>
+           </div>
         </div>
     )
 }
