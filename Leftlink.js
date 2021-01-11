@@ -1,14 +1,21 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './Leftlink.css';
 import Socialicon from './Socialicon';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-function Leftlink() {
+   
+
+class Leftlink extends Component{
+     state={
+         name : 'Abhishek',
+     }
+            
+render(){
     return (
         <div className="leftlink">
             <div className="title">
                <span className="title__hello"> <h1>Hello, i'm</h1> </span>
-               <span className="title__abhi"> <h1>Abhishek</h1> </span>                
+               <span className="title__abhi"> <h1>{this.state.name}</h1> </span>                
             </div>
             <div className="subtitle">
                 <p className="para">Studying Computer science.  Learning UX & UI 
@@ -28,6 +35,7 @@ function Leftlink() {
             </div>
         </div>
     )
+  }
 }
 
 export default Leftlink
