@@ -11,7 +11,7 @@ npm start
 
 
 ```
-And the page Opens in  http://localhost:3000/ web browser
+And the page Opens in  http://localhost:3000/ web browser.
 
 ```
 # Design
